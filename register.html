@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Join Industry GYM for the best fitness experience." />
+    <meta name="keywords" content="gym, fitness, health, workout, training" />
+    <link rel="pingback" href="https://domainname.com/xmlrpc.php" />
+    <title>Industry GYM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="all" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" media="all" />
+    <link rel="stylesheet" href="css/styles.min.css" media="all" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fas fa-dumbbell"></i> Industry GYM</a>
+        <form class="search-form">
+            <input type="search" id="search-box" placeholder="search here..." />
+            <label for="search-box"><i class="fas fa-search-plus"></i></label>
+        </form>
+        <div class="icons">
+            <div id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div id="search-btn">
+                <i class="fas fa-search-plus"></i>
+            </div>
+            <a href="login.html"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="Planes.html"><i class="fas fa-shopping-Planes"></i></a>
+        </div>
+    </header>
+
+    <div class="side-bar">
+        <div id="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="user">
+            <img src="images/user.jpg" alt="User  Profile Picture" />
+            <h3>Julian Carvajal</h3>
+            <a href="#">Log Out</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+            <a href="Nosotros.html"><i class="fas fa-angle-right"></i> Nosotros</a>
+            <a href="Sedes.html"><i class="fas fa-angle-right"></i> Sedes</a>
+            <a href="Contacto.html"><i class="fas fa-angle-right"></i> Contacto</a>
+            <a href="login.html"><i class="fas fa-angle-right"></i> Login</a>
+            <a href="register.html" class="active"><i class="fas fa-angle-right"></i> Register</a>
+            <a href="Planes.html"><i class="fas fa-angle-right"></i> Planes</a>
+        </nav>
+    </div>
+
+    <section class="register">
+        <form action="includes/file.php" method="post">
+            <h3>Registrate Ahora</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="username" placeholder="Nombre" class="box" required />
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" class="box" required />
+            
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="pwd" placeholder="Contrasena" class="box" required minlength="6 />
+            
+            <label for="confirm_password">Confirma tu Contraseña</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirma tu Contraseña" class="box" required minlength="6" />
+            
+            <input type="submit" value="Registrate Ahora" value="Send Data"class="btn" />
+            <p>¿Ya tienes cuenta?</p>
+            <a href="login.html" class="btn link">Inicia sesión</a>
+        </form>
+
+
+
+    </section>
+
+    <section class="quick-links">
+        <a href="index.html" class="logo">
+            <i class="fas fa-dumbbell"></i> Industry GYM
+        </a>
+        <div class="links">
