@@ -1,8 +1,8 @@
 <?php
 // Database credentials
-$servername = "sql312.infinityfree.com"; //Host name
-$username = "if0_37735872"; // Default XAMPP username
-$password = "sOxrYKPyMGVz"; // Default XAMPP password is empty
+$servername = "sql113.iceiy.com"; //Host name
+$username = "icei_37736970"; // Default XAMPP username
+$password = "kDcYuwJIqKdB"; // Default XAMPP password is empty
 $dbname = "if0_37735872_Industry_gym"; // Replace with your database name
 
 
